@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+@import  url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    width: 100%;
+}
+
+section nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background:black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+section nav .logo img{
+    width: 100px;
+    height: 10%;
+    cursor: pointer;
+    margin: 7px 0;
+}
+section nav ul{
+    list-style: none;
+}
+
+section nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+section nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    border-bottom: 1px solid #fff;
+}
+
+ section nav ul li a:hover{
+    color: orangered;
+    border-bottom: 1px solid orangered;
+ }
+
+ .image-section{
+    background : url(staberry.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0px;
+    height: 700px;
+    
+ }
+ .headding h1
+ {
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400px;
+    height: 50%;
+    font-family:'Allura',cursive;
+    margin: top 13px ; 
+    color: orangered;
+}
+
+.button{ 
+    text-align: center;
+    margin: 10px auto 15px;
+    margin-left: 80px;
+    margin-right: 60px;
+    border-radius:80px ;
+    
+    
+}
+
+.button .btn{
+    background-color: #FF5F00;
+    color: #fff;
+    border-radius: 80px;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+ }
+
+ .button .btn:hover{
+   background: #fff;
+   background: transparent;
+   border: 1px solid orangered;
+   color: orangered;
+ }
+
+ .WELCOME h2{
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 20px;
+ }
+ 
+ .text-center{
+    text-align: center;
+    font-family: 'Allura',cursive;
+    color: #FF5F00;
+    font-size: 60px;
+ }
+ .quote{ font-family: 'Allura',cursive;
+    color: #FF5F00;
+}
+ 
+.qu{
+    font-family: 'Allura',cursive;
+    color: #FF5F00;
+}
+.headding2{
+    text-align: center;
+    font-family: 'Allura',cursive;
+    color: #FF5F00;
+    margin-top: 50px;
+    font-size: 50px;
+
+}
+.cont{padding-bottom: 50px;
+    color:black;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 40px;
+  
+}
+.rest{
+    background: url(img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0px;
+    height: 700px;
+    margin-top: 20px;
+
+}
+.rest{
+    color: #fff;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding-left: 20px;
+  
+}
+h1{
+    font-family: 'Allura',cursive;
+    color: #FF5F00;
+}
+img{
+    width: 100%;
+    height: 400px;
+    border: 5px solid orangered;
+}
+.menu h1{
+    font-family: 'Allura',cursive;
+    color: #FF5F00;
+    font-weight: 600;
+    font-size: 100;
+    text-align: center;
+    margin-top: 50px;
+}
+.button1{
+    text-align: center;
+    margin: 1px auto 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.button1 .btn{
+    background: #fff;
+   background: transparent;
+   border: 1px solid orangered;
+   color: orangered;
+   border-radius: 80px; 
+   padding: 10px 25px;
+   margin: 30px 15px 10px;
+}
+.button1 .btn:hover{background: orangered;
+    color: #fff;
+}
+
+.Buffet{
+    text-align: center;
+}
+.bk{
+    color: orangered;
+    font-size: xx-large;
+    font-weight:bold;
+    
+}
+.id{
+    color: orangered;
+    font-size: xx-large;
+    font-weight:bold;
+    
+}
+.Breakfast{
+    text-align: center;
+}
+.Breakfast h3{
+    margin-top: 30px;
+}
+.lunch{
+    text-align: center;
+    margin-top: 30px;
+}
+.lunchmenu{
+    font-family: 'Allura',cursive;
+    color: #FF5F00; 
+    text-decoration: underline;
+    font-weight:bold;
+    font-size: xx-large;
+}
+section{
+    font-family: 'Allura',cursive;
+    color: #FF5F00; 
+    font-weight:bold;
+    font-size: xx-large;
+    
+}
+.mus{
+    color: orangered;
+    font-weight: bold;
+    font-size: xx-large;
+    
+}
+.pa{
+    color: orangered;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Allura',cursive;
+    font-weight:bold;
+    font-size:xx-large;
+    margin-top: 20px;
+}
+.pz{
+    color: orangered;
+    font-weight: bold;
+    text-align: center;
+    font-size: xx-large;
+}
+.textline{
+color: #000;
+font-weight: 10;
+font-size: 16px;
+text-align: center;
+}
+.pizaprice{
+    color: #000;
+font-weight: 10;
+font-size: 15px;
+font-weight: bold;
+text-align: center;
+}
+.desert{
+    text-align: center;
+    font-family: 'Allura',cursive;
+    color: #FF5F00;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size:xx-large;
+   margin-top: 10px;
+   
+
+}
+.spec{
+    color: #FF5F00;
+    text-decoration: none;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+
+
+}
+.des{
+    color: #000;
+    font-weight: 10;
+font-size: 16px;
+text-align: center;
+}
+.item{
+    color: #000;
+    font-weight: bold;
+font-size: 16px;
+text-align: center;
+   
+}
+.hot{
+    color: orangered;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Allura',cursive;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: xx-large;
+}
+.Smoothie{
+    color: orangered;
+    text-align: center;
+    font-weight: bold;
+font-size: 16px;
+
+}
+.coffetext{
+    color:#000;
+    font-weight: 20;
+font-size: 16px;
+text-align: center;
+}
+.coffepri{
+    color: #000;
+    font-weight: bold;
+font-size: 16px;
+text-align: center;
+}
+.coffeitem{
+    color: orangered;
+    text-align: center;
+    font-weight: bold;
+font-size: 30px;
+}
+#view{margin-bottom: 50px;
+ padding: 10px 40px; 
+}
+
+.chef{
+    background-color: #000;
+    padding: 50px 0px;
+
+}
+.chefsection{
+    text-align: center;
+    color: orangered;
+    font-family: 'Allura',cursive;
+    font-weight: 900;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.chefdrink{
+    text-align: center;
+    color: orangered;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.chefmenu{
+    text-align: center;
+    color: orangered;
+    font-weight: 900;
+    font-size: 20px; 
+    margin-bottom: 20px;
+}
+.chefitem{
+text-align: center;
+color: orangered;
+font-weight: 900;
+font-size: 20px;
+margin-bottom: 20px;
+}
+.chefsec{
+font-size: 20px;
+text-align: center;
+color: orangered;
+font-weight: 900;
+margin-bottom: 20px;
+
+}
+.chefdr{
+ font-size: 20px;
+text-align: center;
+color: orangered;
+font-weight: 900;
+}
+
+.imgsec{
+    background-color: black;
+    padding: 50px 0px;
+    margin-top: 50px;
+}
+.pic{padding: 50px 0px;
+    text-align: center;
+    color: orangered;
+    font-family: 'Allura',cursive;
+    font-weight: 900;
+    font-size: 50px;
+}
+.totalmen{
+    background-color: #000;
+}
+.showig{
+    border: 1px solid black;
+}
+.me{
+    border: 1px solid black;
+}
+ 
+.aboutsection{padding-bottom: 30px;
+    text-align: center;
+    color : orangered;
+    font-family: 'Allura',cursive;
+    font-weight: 900;
+    font-size: 50px;
+    margin-top: 30px;
+}
+.texitem{padding: 50px 30px;
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+    background-color: bisque;
+}
+.txline{padding: 50px 30px;
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+    background-color: bisque;
+
+}
+.footer{
+    background-color:rgb(31, 30, 30);
+    padding: 50px 0px;
+
+}
+.ftxt{
+    color : orangered;
+    font-family: 'Allura',cursive;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px 0px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    
+    
+}
+.footertext{color : orangered;
+    font-family: 'Allura',cursive;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px 0px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.footercost{color : orangered;
+    font-family: 'Allura',cursive;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px 0px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer .container li{padding-bottom: 7px;
+    text-align: center;
+    list-style-type: none;
+}
+.footer .container li a{ 
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+.footer .container li a:hover{ 
+    color: #FF5F00;
+}
+.lastftr{
+    background-color: #000;
+    padding: 50px 0px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    color: #FF5F00;
+    font-family: 'Allura',cursive;
+    
+}
+.socialicon  .fa-facebook-official{
+    font-size: 70px;
+    color: blue;
+}
+ 
